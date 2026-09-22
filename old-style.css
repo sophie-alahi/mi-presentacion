@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: rgb(252, 220, 253);
+    color: rgb(19, 2, 36);
+    font-family: "montserat", sans-serif;
+}
+
+main,
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* en flex-direction: column; se invierten justif-content y align-items */
+    width: 75%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+h2 {
+    color: darkmagenta;
+}
+
+
+
+header nav {
+    background-color: darkmagenta;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 1rem;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+header ul li {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+#hobbies {
+    width: 100%;
+}
+
+footer {
+    background-color: darkmagenta;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    padding: 3rem;
+}
