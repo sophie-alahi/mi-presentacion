@@ -1,38 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    background-color:antiquewhite;
+    background-color: antiquewhite;
     font-family: "montserrat", sans-serif;
+    margin: 0;
 }
 
-header ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-}
-
-header a {
-    margin: 0 1rem;
-}
 h1 {
     color: darkmagenta;
+    margin: 2rem;
+    text-align: center;
+
 }
 
 h2 {
     color: palevioletred;
 }
-section {
-    padding: 0 0.5rem;
-}
-#techs {
-    border: palevioletred 4px dashed;
-    border-radius: 10px;
-}
-#techs article {
-    padding: 0 1.5rem;
-}
 
-#contact li {
+h3 {
     color: blueviolet;
 }
 
@@ -44,4 +29,82 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+header nav {
+    background-color: darkmagenta;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+}
+
+header a {
+    margin: 0 1rem;
+    color: white;
+}
+
+header section,
+main {
+    margin: 0 6rem;
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+aside {
+    width: 20%;
+    margin-left: 2rem;
+    margin-right: 0.5rem;
+}
+aside img {
+    min-width: 150px;
+    width: 100%;
+}
+
+aside ol {
+    padding: 0 1rem;
+}
+
+aside summary {
+    font-weight: 600;
+    width: 100%;
+}
+
+aside summary:hover {
+    color: darkorchid;
+}
+
+
+#techs {
+    border: palevioletred 4px dashed;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+#techs article {
+    padding: 0 1.5rem;
+}
+
+#contact li {
+    color: blueviolet;
+}
+
+footer {
+    color: white;
+    background-color: darkmagenta;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
 }
